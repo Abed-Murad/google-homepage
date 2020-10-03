@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>build this webpage - Buscar con Google</title>
+    <link rel="stylesheet" type="text/css" href="css/styles-search.css">
+</head>
+
+<body>
+<div class="head-container">
+    <div class="head-logo">
+        <img id="logo-google"
+             src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google">
+    </div>
+    <div class="head-search">
+        <div class="head-input">
+            <div class="search-container">
+                <div class="search-group">
+                    <input type="search" id="search-box" name="search-box" title="Buscar">
+                    <svg class="svg-search-left" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 24 24">
+                        <path
+                                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                        </path>
+                    </svg>
+                    <svg class="svg-search-right" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 24 24">
+                        <path
+                                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="head-options">
+            <div class="option-container active">
+                <div class="svg-container">
+                    <svg class="option-svg" focusable="false" viewBox="0 0 24 24">
+                        <path fill="#34a853" d="M10 2v2a6 6 0 0 1 6 6h2a8 8 0 0 0-8-8"></path>
+                        <path fill="#ea4335" d="M10 4V2a8 8 0 0 0-8 8h2c0-3.3 2.7-6 6-6"></path>
+                        <path fill="#fbbc04" d="M4 10H2a8 8 0 0 0 8 8v-2c-3.3 0-6-2.69-6-6"></path>
+                        <path fill="#4285f4"
+                              d="M22 20.59l-5.69-5.69A7.96 7.96 0 0 0 18 10h-2a6 6 0 0 1-6 6v2c1.85 0 3.52-.64 4.88-1.68l5.69 5.69L22 20.59">
+                        </path>
+                    </svg>
+                </div>
+                <div class="text-container">Todos</div>
+            </div>
+            <div class="option-container">
+                <div class="svg-container">
+                    <svg class="option-svg" focusable="false" viewBox="0 0 24 24">
+                        <path
+                                d="M14 13l4 5H6l4-4 1.79 1.78L14 13zm-6.01-2.99A2 2 0 0 0 8 6a2 2 0 0 0-.01 4.01zM22 5v14a3 3 0 0 1-3 2.99H5c-1.64 0-3-1.36-3-3V5c0-1.64 1.36-3 3-3h14c1.65 0 3 1.36 3 3zm-2.01 0a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h7v-.01h7a1 1 0 0 0 1-1V5">
+                        </path>
+                    </svg>
+                </div>
+                <div class="text-container">Imágenes</div>
+            </div>
+            <div class="option-container">
+                <div class="svg-container">
+                    <svg class="option-svg" focusable="false" viewBox="0 0 16 16">
+                        <path
+                                d="M7.503 0c3.09 0 5.502 2.487 5.502 5.427 0 2.337-1.13 3.694-2.26 5.05-.454.528-.906 1.13-1.358 1.734-.452.603-.754 1.508-.98 1.96-.226.452-.377.829-.904.829-.528 0-.678-.377-.905-.83-.226-.451-.527-1.356-.98-1.959-.452-.603-.904-1.206-1.356-1.734C3.132 9.121 2 7.764 2 5.427 2 2.487 4.412 0 7.503 0zm0 1.364c-2.283 0-4.14 1.822-4.14 4.063 0 1.843.86 2.873 1.946 4.177.468.547.942 1.178 1.4 1.79.34.452.596.99.794 1.444.198-.455.453-.992.793-1.445.459-.61.931-1.242 1.413-1.803 1.074-1.29 1.933-2.32 1.933-4.163 0-2.24-1.858-4.063-4.139-4.063zm0 2.734a1.33 1.33 0 11-.001 2.658 1.33 1.33 0 010-2.658">
+                        </path>
+                    </svg>
+                </div>
+                <div class="text-container">Maps</div>
+            </div>
+            <div class="option-container">
+                <div class="svg-container">
+                    <svg class="option-svg" focusable="false" viewBox="0 0 24 24">
+                        <path
+                                d="M10 16.5l6-4.5-6-4.5v9zM5 20h14a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1zm14.5 2H5a3 3 0 0 1-3-3V4.4A2.4 2.4 0 0 1 4.4 2h15.2A2.4 2.4 0 0 1 22 4.4v15.1a2.5 2.5 0 0 1-2.5 2.5">
+                        </path>
+                    </svg>
+                </div>
+                <div class="text-container">Videos</div>
+            </div>
+            <div class="option-container">
+                <div class="svg-container">
+                    <svg class="option-svg" focusable="false" viewBox="0 0 24 24">
+                        <path
+                                d="M12 11h6v2h-6v-2zm-6 6h12v-2H6v2zm0-4h4V7H6v6zm16-7.22v12.44c0 1.54-1.34 2.78-3 2.78H5c-1.64 0-3-1.25-3-2.78V5.78C2 4.26 3.36 3 5 3h14c1.64 0 3 1.25 3 2.78zM19.99 12V5.78c0-.42-.46-.78-1-.78H5c-.54 0-1 .36-1 .78v12.44c0 .42.46.78 1 .78h14c.54 0 1-.36 1-.78V12zM12 9h6V7h-6v2">
+                        </path>
+                    </svg>
+                </div>
+                <div class="text-container">Noticias</div>
+            </div>
+            <div class="option-container">
+                <div class="svg-container">
+                    <svg class="option-svg" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 24 24">
+                        <path
+                                d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="text-container">Más</div>
+            </div>
+            <div class="option-container">
+                <div class="text-container">Preferencias</div>
+            </div>
+            <div class="option-container">
+                <div class="text-container">Herramientas</div>
+            </div>
+        </div>
+
+    </div>
+    <div class="head-apps">
+        <div class="dots-wrap">
+            <svg class="head-dots" focusable="false" viewBox="0 0 24 24">
+                <path
+                        d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                </path>
+            </svg>
+        </div>
+        <div id="login"><a href="https://accounts.google.com/ServiceLogin" target="_blank">Iniciar sesión</a></div>
+    </div>
+</div>
+
+<div class="head-results">Cerca de 1,080,000,000 resultados (0.35 segundos)</div>
+
+<main class="main-results">
+    <div class="page-results">
+        <div class="page-article">
+
+            <div class="article-url">victor-lf.github.io <abbr class="article-url-simple">&gt;
+                google-search-results</abbr></div>
+            <div class="article-name"><a class="title-link" href="#">build this webpage - GitHub Pages</a></div>
+            <p class="article-content"><span class="text-bold">build this webpage</span>.
+                https://benjdelt.github.io/google-results/. With zero coding experience, artist building 180
+                webpages in 180 days ...</p>
+
+            <div class="article-url">christine-27.github.io <abbr class="article-url-simple">&gt;
+                google-homepage</abbr></div>
+            <div class="article-name"><a class="title-link" href="#">build this webpage - GitHub Pages</a></div>
+            <p class="article-content">TO CREATE A <span class="text-bold">WEBSITE</span> WITH WORDPRESS (OR JOOMLA
+                & DRUPAL), USE ONE CLICK INSTALLATION: 1. Log in to your hosting account. 2. Go to your ...</p>
+
+            <div class="article-url">www.websitebuilderexpert.com <abbr class="article-url-simple">&gt;
+                building-websites</abbr></div>
+            <div class="article-name"><a class="title-link" href="#">How to Build a Website 2020 | The Complete
+                Beginner's Guide</a></div>
+            <p class="article-content"><span class="text-date">Sep 21, 2020</span> - How to <span
+                    class="text-bold">Build</span> a <span class="text-bold">Website</span> the Step-by-Step Guide
+                to Easy Setup. We'll look at how to make a <span class="text-bold">website</span> with both a <span
+                        class="text-bold">website</span> builder and WordPress, ...</p>
+
+            <div class="related-questions">
+                <div class="wrap-title">
+                    <h3 class="related-title">Preguntas relacionadas</h3>
+                </div>
+                <div class="dropdown-question">
+                    <p>How can i create my own webpage</p>
+                    <svg class="svg-dropdown" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 24 24">
+                        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                    </svg>
+                </div>
+                <div class="dropdown-question">
+                    <p>What is the cheapest way to build a website</p>
+                    <svg class="svg-dropdown" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 24 24">
+                        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                    </svg>
+                </div>
+                <div class="dropdown-question">
+                    <p>How much should I pay someone to build a website?</p>
+                    <svg class="svg-dropdown" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 24 24">
+                        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                    </svg>
+                </div>
+                <div class="dropdown-question">
+                    <p>What is the best tool to build a website?</p>
+                    <svg class="svg-dropdown" focusable="false" xmlns="http://www.w3.org/2000/svg"
+                         viewBox="0 0 24 24">
+                        <path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="article-url">www.buildthis.io <abbr class="article-url-simple">&gt; make-a-website</abbr>
+            </div>
+            <div class="article-name"><a class="title-link" href="#">How to Build A Website: A-to-Z Beginner Guide -
+                BuildThis.io</a></div>
+            <p class="article-content"><span class="text-date">Apr 21, 2020</span> - In this article, I will show
+                you the essential steps in <span class="text-bold">creating</span> a <span
+                        class="text-bold">website</span>. Register a domain name; Signup for a web hosting; Design your
+                ...</p>
+
+            <div class="article-url">www.youtube.com <abbr class="article-url-simple">&gt; watch &gt;
+                YWA-xbsJrVg</abbr></div>
+            <div class="article-name"><a class="title-link" href="#">How to Make a Website in 10 mins - Simple &
+                Easy - YouTube</a></div>
+            <p class="article-content"><span class="text-date">Jan 3, 2018</span> - Watch how you can make a <span
+                    class="text-bold">website</span> in 10 Mins - with 5 Simple steps. By following these steps, ...
+                HTML Full Course - <span class="text-bold">Build</span> a <span class="text-bold">Website</span>
+                Tutorial.</p>
+
+            <div class="article-url">www.webnode.com</div>
+            <div class="article-name"><a class="title-link" href="#">Webnode: Create a free website easily | Free
+                website builder</a></div>
+            <p class="article-content">Easily <span class="text-bold">build</span> your <span
+                    class="text-bold">website</span> with Webnode online editor. Domain names and hosting are
+                included. Fast and local support will take care of you.</p>
+
+            <div class="article-url">www.squarespace.com</div>
+            <div class="article-name"><a class="title-link" href="#">Squarespace: Build a Website – Website
+                Builder</a></div>
+            <p class="article-content">Squarespace is the all-in-one solution for anyone looking to create a
+                beautiful <span class="text-bold">website</span>. Domains, eCommerce, hosting, galleries, analytics,
+                and 24/7 support all ...</p>
+
+            <div class="article-url">www.pcmag.com <abbr class="article-url-simple">&gt; ... &gt; Web Hosting</abbr>
+            </div>
+            <div class="article-name"><a class="title-link" href="#">How to Create a Website | PCMag</a></div>
+            <p class="article-content">If you need to quickly <span class="text-bold">build</span> a simple <span
+                    class="text-bold">website</span>, starting with a blogging service is a great way to go. The
+                major player in the blog game is WordPress, a content ...</p>
+
+            <div class="article-url">websitesetup.org</div>
+            <div class="article-name"><a class="title-link" href="#">How to Create a Website: Step-by-Step Guide for
+                Beginners ...</a></div>
+            <p class="article-content"><span class="text-date">11 mar. 2020</span> - Learn how to make a <span
+                    class="text-bold">website</span> and set it up. This site contains different tutorials on how to
+                <span class="text-bold">build</span> a <span class="text-bold">website</span> using WordPress,
+                Joomla, Drupal ...</p>
+
+            <div class="article-url">www.website.com</div>
+            <div class="article-name"><a class="title-link" href="#">Create Your Website for Free | Free Site
+                Builder | Website.com</a></div>
+            <p class="article-content">Domain names, web hosting, <span class="text-bold">website</span> templates,
+                and ecommerce solutions ... <span class="text-bold">Build</span> a credible brand identity with your
+                custom domain name - included for free ....</p>
+        </div>
+    </div>
+</main>
+
+<h3 class="page-related">Búsquedas relacionadas con build this webpage</h3>
+<a class="title-link link-related" href="https://www.google.com/search?q=how+to+start+a+website+from+scratch"
+   target="_blank">how to start a website from scratch</a>
+<a class="title-link link-related" href="https://www.google.com/search?q=best+way+to+create+a+website"
+   target="_blank">best way to create a website</a>
+<a class="title-link link-related" href="https://www.google.com/search?q=makeawebsitehub"
+   target="_blank">makeawebsitehub</a>
+
+<div class="page-nav">
+    <div class="page-nav-nums">
+            <span
+                    style="background:url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-24px 0;width:28px">
+            </span>
+        <span
+                style="background:url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-53px 0;width:20px">
+            </span>
+        <span
+                style="background:url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0;width:20px">
+            </span>
+        <span
+                style="background:url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0;width:20px">
+            </span>
+        <span
+                style="background:url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0;width:20px">
+            </span>
+        <span
+                style="background:url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0;width:20px">
+            </span>
+        <span
+                style="background:url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0;width:20px">
+            </span>
+        <span
+                style="background:url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0;width:20px">
+            </span>
+        <span
+                style="background:url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0;width:20px">
+            </span>
+        <span
+                style="background:url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0;width:20px">
+            </span>
+        <span
+                style="background:url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-74px 0;width:20px">
+            </span>
+        <span
+                style="background:url(https://www.google.com/images/nav_logo299.webp) no-repeat;background-position:-96px 0;width:71px">
+            </span>
+        <span></span>
+        <span></span>
+        <a class="nav-num">1</a>
+        <a class="nav-num">2</a>
+        <a class="nav-num">3</a>
+        <a class="nav-num">4</a>
+        <a class="nav-num">5</a>
+        <a class="nav-num">6</a>
+        <a class="nav-num">7</a>
+        <a class="nav-num">8</a>
+        <a class="nav-num">9</a>
+        <a class="nav-num">10</a>
+        <span></span>
+        <a class="nav-num">Siguiente</a>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-info footer-share">
+        <div class="text-wrap">
+            <p>Chile</p>
+        </div>
+    </div>
+    <div class="footer-links footer-share">
+        <div class="text-wrap">
+            <a class="footer-a" href="https://support.google.com/websearch/" target="_blank">Ayuda</a>
+            <a class="footer-a" href="https://www.google.com/tools/feedback" target="_blank">Enviar comentarios</a>
+            <a class="footer-a" href="https://policies.google.com/privacy" target="_blank">Privacidad</a>
+            <a class="footer-a" href="https://policies.google.com/terms" target="_blank">Condiciones</a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
